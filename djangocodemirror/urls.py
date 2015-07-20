@@ -2,7 +2,7 @@
 """
 Url map for sample views
 """
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns, url, include
 
 from djangocodemirror.views import SampleView, SamplePreviewView, SampleQuicksaveView, EditorSettingsView
 
